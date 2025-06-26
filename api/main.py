@@ -20,7 +20,6 @@ disease_model = tf.keras.models.load_model(MODEL_PATH)
 
 
 
-# List of class names (you should adjust this to match your model)
 CLASS_NAMES = [
     "Tomato_Bacterial_spot",
     "Tomato_Early_blight",
